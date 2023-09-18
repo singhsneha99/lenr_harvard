@@ -1,0 +1,37 @@
+/* Add your styles here */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.visualization {
+  flex: 1;
+}
+
+.details {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
